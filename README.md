@@ -1,5 +1,4 @@
 # Provide instructions for building the project
-zenity --info --title="Build Instructions" --text="To build the project, follow these steps:
 1. Open a terminal.
 2. Navigate to the project directory.
 3. Run the following commands:
@@ -8,4 +7,9 @@ zenity --info --title="Build Instructions" --text="To build the project, follow 
    cmake ..
    make
 4. Run the executable:
-   ./todo
+   ./app
+Or using the scripts
+
+run the build.sh to build the project
+run run.sh to run the executable
+run start.sh to run the makefile
